@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#96DDDD"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtNo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:background="#FF8F6C"
+        android:ems="12"
+        android:hint="@string/enter_no_1"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#EDEBF3"
+        tools:ignore="TextContrastCheck" />
+
+<EditText
+android:id="@+id/edtNo2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:autofillHints=""
+android:ems="12"
+android:hint="@string/enter_no_2"
+android:inputType="number"
+android:minHeight="48dp"
+android:textColorHint="#8D6E63"
+    android:background="#FFFFFF"
+    />
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="11dp">
+
+    <Button
+        android:id="@+id/btnAdd"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_weight="1"
+        android:background="#009688"
+        android:text="@string/add"
+        android:textColor="#000000"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnSub"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_weight="1"
+        android:background="#E91E63"
+        android:text="@string/sub"
+        android:textColor="#000000"
+        tools:ignore="VisualLintButtonSize" />
+
+
+    <Button
+        android:id="@+id/btnMul"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_weight="1"
+        android:background="#FFC107"
+        android:text="@string/mul"
+        android:textColor="#006064"
+        tools:ignore="VisualLintButtonSize" />
+
+
+    <Button
+        android:id="@+id/btnDiv"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_weight="1"
+        android:background="#D1DEE4"
+        android:text="@string/div"
+        android:textColor="#616161"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>
+
+    </LinearLayout>
